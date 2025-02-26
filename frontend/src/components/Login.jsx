@@ -24,7 +24,7 @@ const Login = () => {
         setUserInfo({ "email":email,"password": password });
         handleSuccess('Logged In successfully');
         setTimeout(() => {
-            navigate("/home");
+            navigate("/chat");
         }, 1000);
 
     }

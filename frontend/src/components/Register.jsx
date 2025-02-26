@@ -58,7 +58,7 @@ const Register = () => {
                 />
                 <br />
 
-                <p>already have account? <Link className='text-yellow-200'  to={'/'}>Login</Link> </p>
+                <p>already have a account? <Link className='text-yellow-200'  to={'/'}>Login</Link> </p>
 
                 <input className={`border bg-white/70 hover:bg-white/60 text-black font-semibold p-1 px-2 rounded-md ${!button ? 'opacity-50 cursor-not-allowed' : ''} flex  mx-auto `}
                     type="submit" 
